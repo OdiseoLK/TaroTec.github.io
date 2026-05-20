@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaroTec – ¡El Crunch del Tec!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo">TARO<span>TEC</span></a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sabores">Sabores</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <div class="badge-innovatec">InnnovaTecNM 2026 · TEC Orizaba</div>
+      <h1 class="hero-logo">TARO<span>TEC</span></h1>
+      <p class="hero-tagline">¡EL CRUNCH DEL TEC!</p>
+      <p class="hero-sub">Botana frita elaborada a base de malanga · 100% Natural · 40 g</p>
+      <div class="hero-btns">
+        <a href="#sabores" class="btn btn-primary">Elige tu sabor</a>
+        <a href="https://web.facebook.com/profile.php?id=61573335454468" target="_blank" rel="noopener" class="btn btn-outline">Síguenos en Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLYER / IMAGEN PRINCIPAL -->
+  <section class="flyer-section">
+    <div class="container flyer-container">
+      <div class="flyer-img-wrap">
+        <img src="Sabores.jpeg" alt="TaroTec – Elige tu sabor favorito" class="flyer-img" />
+      </div>
+      <div class="flyer-text">
+        <h2>¿Qué es TaroTec?</h2>
+        <p>TaroTec es una botana innovadora elaborada a base de <strong>malanga</strong> (Colocasia esculenta), un tubérculo ancestral con gran valor nutricional. Promovemos su consumo impulsando el uso de ingredientes nativos y contribuyendo al campo mexicano.</p>
+        <ul class="flyer-features">
+          <li>✔ 100% Natural, sin conservadores artificiales</li>
+          <li>✔ Rica en fibra y fuente de energía</li>
+          <li>✔ 3 sabores para todos los gustos</li>
+          <li>✔ Presentación de 40 g, ideal para llevar</li>
+        </ul>
+        <a href="#sabores" class="btn btn-primary" style="margin-top:1.5rem">Ver sabores</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SABORES -->
+  <section class="section sabores-section" id="sabores">
+    <div class="container">
+      <h2 class="section-title light">Elige tu sabor favorito</h2>
+      <div class="sabores-grid">
+
+        <!-- NATURAL -->
+        <div class="sabor-card natural">
+          <div class="sabor-img-wrap">
+            <img src="Natural.jpeg" alt="TaroTec Sabor Natural" class="sabor-img" />
+          </div>
+          <div class="sabor-info">
+            <span class="sabor-tag natural-tag">NATURAL</span>
+            <h3>Natural</h3>
+            <p class="sabor-desc">Crujiente y delicioso</p>
+            <p>El sabor puro de la malanga. Simple, auténtico y adictivo.</p>
+          </div>
+        </div>
+
+        <!-- QUESO -->
+        <div class="sabor-card queso">
+          <div class="sabor-img-wrap">
+            <img src="Queso.jpeg" alt="TaroTec Sabor Queso" class="sabor-img" />
+          </div>
+          <div class="sabor-info">
+            <span class="sabor-tag queso-tag">QUESO</span>
+            <h3>Queso</h3>
+            <p class="sabor-desc">Sabor irresistible</p>
+            <p>La combinación perfecta entre el crunch de la malanga y el intenso sabor a queso.</p>
+          </div>
+        </div>
+
+        <!-- HABANERO -->
+        <div class="sabor-card habanero">
+          <div class="sabor-img-wrap">
+            <img src="Habanero.jpeg" alt="TaroTec Sabor Habanero" class="sabor-img" />
+          </div>
+          <div class="sabor-info">
+            <span class="sabor-tag habanero-tag">HABANERO</span>
+            <h3>Habanero</h3>
+            <p class="sabor-desc">Para los que aman lo picante</p>
+            <p>Un golpe de calor habanero que te dejará pidiendo más. 🔥</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿SABÍAS QUE? -->
+  <section class="section sabiasque-section">
+    <div class="container sabiasque-grid">
+      <div class="sabiasque-text">
+        <h2 class="section-title" style="text-align:left">¿Sabías que?</h2>
+        <p>La <strong>malanga</strong> es un tubérculo ancestral con larga historia y reconocido valor nutricional. A pesar de su riqueza, su consumo en productos procesados sigue siendo limitado.</p>
+        <p style="margin-top:1rem">En TaroTec promovemos su consumo, impulsando el uso de este ingrediente nativo y motivando a las comunidades a continuar su cultivo, contribuyendo así a su preservación.</p>
+      </div>
+      <div class="sabiasque-img">
+        <img src="InnovaTec.jpg" alt="Stand TaroTec en InnnovaTecNM 2026" class="stand-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section beneficios-section" id="beneficios">
+    <div class="container">
+      <h2 class="section-title">Beneficios</h2>
+      <div class="beneficios-grid">
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🌱</div>
+          <h4>Innovación con ingredientes tradicionales</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🚜</div>
+          <h4>Apoyo al campo mexicano</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">💎</div>
+          <h4>Producto poco común y diferenciado</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🌾</div>
+          <h4>Rica en fibra</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">⚡</div>
+          <h4>Fuente de energía natural</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">💊</div>
+          <h4>Contiene vitaminas y minerales</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🎒</div>
+          <h4>Fácil de llevar a todos lados</h4>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">✅</div>
+          <h4>100% Natural sin conservadores</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="section galeria-section" id="galeria">
+    <div class="container">
+      <h2 class="section-title light">Galería</h2>
+      <div class="galeria-grid">
+        <div class="galeria-item">
+          <img src="Sabores.jpeg" alt="Banner TaroTec" />
+          <div class="galeria-overlay">Banner TaroTec</div>
+        </div>
+        <div class="galeria-item">
+          <img src="Natural.jpeg" alt="Empaque Natural" />
+          <div class="galeria-overlay">Sabor Natural</div>
+        </div>
+        <div class="galeria-item">
+          <img src="Queso.jpeg" alt="Empaque Queso" />
+          <div class="galeria-overlay">Sabor Queso</div>
+        </div>
+        <div class="galeria-item">
+          <img src="Habanero.jpeg" alt="Empaque Habanero" />
+          <div class="galeria-overlay">Sabor Habanero</div>
+        </div>
+        <div class="galeria-item">
+          <img src="InnovaTec.jpg" alt="Stand InnnovaTecNM 2026" />
+          <div class="galeria-overlay">Stand InnnovaTecNM 2026</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contacto-section" id="contacto">
+    <div class="container">
+      <h2 class="section-title light">Encuéntranos</h2>
+      <div class="contacto-grid">
+        <a class="contacto-card" href="https://web.facebook.com/profile.php?id=61573335454468" target="_blank" rel="noopener">
+          <div class="contacto-icon fb">f</div>
+          <span>Tarotec</span>
+        </a>
+        <a class="contacto-card" href="https://instagram.com/taro.tec" target="_blank" rel="noopener">
+          <div class="contacto-icon ig">📷</div>
+          <span>@taro.tec</span>
+        </a>
+        <a class="contacto-card" href="mailto:tarotecito@gmail.com">
+          <div class="contacto-icon mail">✉</div>
+          <span>tarotecito@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 TaroTec · ¡El Crunch del Tec! · InnnovaTecNM 2026 · TEC Orizaba</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
